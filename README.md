@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Graphic Designer Portfolio
 
-## Getting Started
+A modern, attractive, and fully responsive **single-page portfolio** website designed specifically for graphic designers. Built using **Next.js**, **TailwindCSS**, and **shadcn UI** components, this portfolio showcases creative work, skills, services, and contact information with smooth navigation and an elegant design.
 
-First, run the development server:
+## Features
+
+- **Responsive Design**: Perfectly optimized for all screen sizes — mobiles, tablets, laptops, and desktops.
+- **Single Page Layout**: Smooth scrolling navigation across multiple sections:
+
+  - Navbar with active link highlighting
+  - Hero Section with engaging introduction and call-to-actions
+  - About Section to highlight background and story
+  - Feature Section to showcase skills or unique strengths
+  - Portfolio Section with working tabs to filter and display projects
+  - Services Section to present offered design services
+  - Contact Section with a working contact form
+  - Footer with social links and copyright info
+
+- **Clean and Modern UI**: Utilizes TailwindCSS and shadcn UI for clean, maintainable styling.
+- **Interactive Tabs**: Portfolio filtering tabs implemented for dynamic project display.
+- **Accessibility**: Built with semantic HTML and keyboard navigation in mind.
+- **Performance Optimized**: Fast loading with Next.js static generation and optimized images.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/) — React framework for server-side rendering and static site generation
+- [TailwindCSS](https://tailwindcss.com/) — Utility-first CSS framework for styling
+- [shadcn UI](https://ui.shadcn.com/) — Headless UI components for React and TailwindCSS
+- [React](https://reactjs.org/) — JavaScript library for building user interfaces
+
+## Installation
+
+1. **Clone the repository**
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/pawantech12/graphic-designer-portfolio.git
+cd graphic-designer-portfolio
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Install dependencies**
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+# or
+yarn install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Run the development server**
 
-## Learn More
+```bash
+pnpm run dev
+# or
+yarn dev
+```
 
-To learn more about Next.js, take a look at the following resources:
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Deployment
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+You can deploy this portfolio easily on platforms like:
 
-## Deploy on Vercel
+- [Vercel](https://vercel.com/) — Recommended for Next.js apps, zero-config deployment
+- [Netlify](https://www.netlify.com/)
+- [Firebase Hosting](https://firebase.google.com/products/hosting)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Build the project before deployment:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+pnpm run build
+```
+
+## Customization
+
+- Replace placeholder text and images in the `/public` and `/components` directories with your own portfolio content.
+- Update social links in the `Footer` component.
+- Modify color schemes and styles via TailwindCSS configuration or shadcn UI component props.
+
+## Contributions
+
+Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or bug fixes.
+
+## License
+
+This project is free to use.
+
+## Contact
+
+Created by **Pawan Kumavat** — feel free to reach out via:
+
+- Email: [pawankumavat042@gmail.com](mailto:pawankumavat042@gmail.com)
+- LinkedIn: [Pawan Kumavat](https://www.linkedin.com/in/pawan-kumavat-11b105297/)
+- Portfolio: [pawan kumavat](https://pawan-kumavat.vercel.app/)
+
+_Thank you for checking out my portfolio project!_
