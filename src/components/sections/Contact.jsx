@@ -58,7 +58,7 @@ const Contact = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             Let&apos;s Work Together
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+          <p className="text-sm text-gray-600 max-w-3xl mx-auto">
             Ready to bring your vision to life? Get in touch and let&apos;s
             create something amazing together.
           </p>
@@ -108,7 +108,7 @@ const Contact = () => {
       className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition"
     >
       <img
-        src="/whatsapp-icon.png" // 👉 apna WhatsApp icon rakho `public/whatsapp-icon.png` me
+        src="https://cdn-icons-png.flaticon.com/128/5968/5968841.png" // 👉 apna WhatsApp icon rakho `public/whatsapp-icon.png` me
         alt="WhatsApp"
         className="w-5 h-5"
       />

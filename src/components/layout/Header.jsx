@@ -62,9 +62,11 @@ const Header = () => {
 
           {/* CTA Button - Desktop */}
           <div className="hidden md:block">
-            <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
+            <a href="#contact">
+              <Button className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
               Let&apos;s Work Together
             </Button>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}

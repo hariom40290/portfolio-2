@@ -292,14 +292,14 @@ The website highlights their 100% placement support, verified certification syst
       </div>
 
       {/* Modal */}
-     <Dialog
+    <Dialog
   open={!!selectedProject}
   onOpenChange={() => setSelectedProject(null)}
 >
   {selectedProject && (
-    <>
+    <div className="flex flex-col max-h-[90vh]"> 
       {/* Header */}
-      <DialogHeader className="px-6 py-4 border-b border-gray-200">
+      <DialogHeader className="px-6 py-4 border-b border-gray-200 flex-shrink-0">
         <DialogTitle className="text-2xl font-bold text-gray-900">
           {selectedProject.title}
         </DialogTitle>
@@ -308,8 +308,8 @@ The website highlights their 100% placement support, verified certification syst
         </p>
       </DialogHeader>
 
-      {/* Body */}
-      <DialogContent>
+      {/* Body (scrollable) */}
+      <DialogContent className="flex-1 overflow-y-auto px-6 py-4">
         <div className="space-y-6 text-gray-700">
           {/* Project Overview */}
           <div>
@@ -344,7 +344,7 @@ The website highlights their 100% placement support, verified certification syst
       </DialogContent>
 
       {/* Footer */}
-      <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-3">
+      <div className="px-6 py-4 border-t border-gray-200 flex justify-end gap-3 flex-shrink-0">
         <Button
           variant="outline"
           onClick={() => setSelectedProject(null)}
@@ -362,9 +362,10 @@ The website highlights their 100% placement support, verified certification syst
           </Button>
         </a>
       </div>
-    </>
+    </div>
   )}
 </Dialog>
+
 
     </section>
   );
