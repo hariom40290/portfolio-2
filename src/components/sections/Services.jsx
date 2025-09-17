@@ -3,86 +3,76 @@ import { Button } from "@/components/ui/button";
 import {
   Palette,
   Monitor,
-  FileText,
   Smartphone,
-  Package,
   Users,
+  Layout,
+  Layers,
 } from "lucide-react";
 
 const Services = () => {
   const services = [
     {
-      icon: Palette,
-      title: "Brand Identity Design",
+      icon: Layout,
+      title: "UI/UX Design",
       description:
-        "Complete brand identity solutions including logo design, color palettes, typography, and brand guidelines.",
+        "Crafting user-friendly and engaging digital experiences with wireframes, prototypes, and usability testing.",
       features: [
-        "Logo Design",
-        "Brand Guidelines",
-        "Color Schemes",
-        "Typography",
+        "Wireframing",
+        "Prototyping",
+        "User Flows",
+        "Usability Testing",
       ],
-      price: "Starting at $1,500",
+      price: "Starting at $500",
     },
     {
       icon: Monitor,
-      title: "Web Design",
+      title: "Web Design & Development",
       description:
-        "Modern, responsive website designs that provide exceptional user experiences across all devices.",
+        "Modern, responsive websites built with clean code and optimized user interfaces.",
       features: [
         "Responsive Design",
-        "UI/UX Design",
-        "Prototyping",
-        "User Testing",
+        "HTML5 / CSS3 / Sass",
+        "Landing Pages",
+        "Website Redesign",
       ],
-      price: "Starting at $2,500",
-    },
-    {
-      icon: FileText,
-      title: "Print Design",
-      description:
-        "High-quality print materials including brochures, flyers, business cards, and marketing collateral.",
-      features: [
-        "Brochures",
-        "Business Cards",
-        "Posters",
-        "Marketing Materials",
-      ],
-      price: "Starting at $500",
+      price: "Starting at $800",
     },
     {
       icon: Smartphone,
       title: "Mobile App Design",
       description:
-        "Intuitive mobile app interfaces designed for optimal user engagement and conversion.",
-      features: ["iOS Design", "Android Design", "User Flows", "Prototyping"],
-      price: "Starting at $3,000",
+        "Intuitive mobile app designs for Android and iOS with a focus on smooth user journeys.",
+      features: ["App UI Design", "Prototyping", "Interactive Flows", "Figma"],
+      price: "Starting at $1,000",
     },
     {
-      icon: Package,
-      title: "Packaging Design",
+      icon: Palette,
+      title: "Branding & Identity",
       description:
-        "Eye-catching packaging solutions that stand out on shelves and communicate brand values.",
-      features: [
-        "Product Packaging",
-        "Label Design",
-        "Box Design",
-        "3D Mockups",
-      ],
-      price: "Starting at $800",
+        "Helping businesses build strong identities with logos, color systems, and style guidelines.",
+      features: ["Logo Design", "Brand Guidelines", "Color Schemes", "Typography"],
+      price: "Starting at $600",
+    },
+    {
+      icon: Layers,
+      title: "Design Systems",
+      description:
+        "Building scalable and reusable design systems for consistency across digital products.",
+      features: ["Component Libraries", "Style Guides", "Figma Systems", "Consistency Audits"],
+      price: "Starting at $700",
     },
     {
       icon: Users,
       title: "Consultation & Strategy",
       description:
-        "Design consultation and strategic planning to align your visual identity with business goals.",
+        "One-on-one consultation to align design decisions with user needs and business goals.",
       features: [
         "Design Audit",
         "Strategy Planning",
-        "Brand Positioning",
-        "Market Research",
+        "UX Research",
+        "Client Workshops",
       ],
-      price: "Starting at $200/hour",
+      price: "Starting at $50/hour",
     },
   ];
 
@@ -93,9 +83,11 @@ const Services = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             My Services
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I offer comprehensive design services to help your brand stand out
-            and connect with your audience.
+          <p className="text-sm text-gray-600 max-w-3xl mx-auto">
+            I help businesses and startups with creative, research-driven, and
+            impactful design solutions. From UI/UX and web design to branding
+            and consultation, I deliver designs that connect with users and
+            achieve results.
           </p>
         </div>
 
@@ -130,7 +122,7 @@ const Services = () => {
                 </div>
 
                 <div className="text-2xl font-bold text-gray-900 mb-6">
-                  {service.price}
+                  {/* {service.price} */}
                 </div>
 
                 <Button className="w-full bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white">
@@ -143,8 +135,8 @@ const Services = () => {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">
-            Need a custom solution? Let&apos;s discuss your specific
-            requirements.
+            Need a custom solution? Let&apos;s discuss your project and find the
+            best design approach.
           </p>
           <Button
             size="lg"

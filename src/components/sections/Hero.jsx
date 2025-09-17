@@ -31,46 +31,53 @@ const Hero = () => {
               <span className="inline-block px-4 py-2 bg-purple-100 text-purple-700 rounded-full text-sm font-medium mb-4">
                 👋 Welcome to my portfolio
               </span>
-              <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
+              <h1 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-gray-900 leading-tight mb-6">
                 I&apos;m{" "}
-                <span className="bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent">
-                  Alex Rivera
+                <span className="bg-gradient-to-r from-purple-600 text-5xl to-blue-600 bg-clip-text text-transparent">
+                  Hariom Kushwah
                 </span>
                 <br />
-                <span className="text-3xl sm:text-4xl lg:text-5xl text-gray-700">
-                  Graphic Designer
+                <span className="text-3xl sm:text-4xl lg:text-3xl text-gray-700">
+                  UI/UX Designer
                 </span>
               </h1>
-              <p className="text-xl text-gray-600 mb-8 max-w-2xl">
-                I create stunning visual experiences that captivate audiences
-                and bring brands to life through innovative design solutions.
+              <p className="text-sm text-gray-600 mb-8 max-w-2xl">
+                With 2 years of experience, I design clean, user-friendly, and
+                engaging digital experiences. My focus is on creating intuitive
+                interfaces that enhance usability and deliver impactful results
+                for businesses and users alike.
               </p>
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button
+             <a href="#portfolio">
+               <Button
                 size="lg"
                 className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700 text-white group"
               >
                 View My Work
                 <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
               </Button>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-purple-200 text-purple-700 hover:bg-purple-50"
-              >
-                <Download className="mr-2 h-4 w-4" />
-                Download CV
-              </Button>
+             </a>
+              <a href="/resume (2).pdf" download>
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-purple-200 text-purple-700 hover:bg-purple-50"
+                >
+                  <Download className="mr-2 h-4 w-4" />
+                  Download CV
+                </Button>
+              </a>
+
             </div>
 
             {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-8 mt-12">
               {[
-                { number: "150+", label: "Projects Completed" },
-                { number: "50+", label: "Happy Clients" },
-                { number: "5+", label: "Years Experience" },
+                { number: "10+", label: "Projects Completed" },
+                // { number: "20+", label: "Happy Clients" },
+                { number: "2+", label: "Years Experience" },
               ].map((stat, index) => (
                 <div key={index} className="text-center">
                   <div className="text-2xl font-bold text-gray-900">
@@ -89,8 +96,8 @@ const Hero = () => {
                 {/* Main Profile Image */}
                 <div className="absolute inset-4 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                   <img
-                    src="https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=500"
-                    alt="Alex Rivera - Graphic Designer"
+                    src="https://media.licdn.com/dms/image/v2/D4E35AQFBzwbCq7kUUw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719457260265?e=1758643200&v=beta&t=0w99tGC6FY-U2u-iQbydKdu2cIk8h_DdSNXskqNn0R4"
+                    alt="Hariom Kushwah - UI/UX Designer"
                     className="w-full h-full object-cover"
                   />
                 </div>

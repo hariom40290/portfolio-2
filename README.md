@@ -1,94 +1,116 @@
-# Graphic Designer Portfolio
+Web Designer Portfolio
 
-A modern, attractive, and fully responsive **single-page portfolio** website designed specifically for graphic designers. Built using **Next.js**, **TailwindCSS**, and **shadcn UI** components, this portfolio showcases creative work, skills, services, and contact information with smooth navigation and an elegant design.
+A modern, visually appealing, and fully responsive single-page portfolio website designed for creative Web Designers. Built with Next.js, TailwindCSS, and shadcn UI, this portfolio highlights your work, skills, and services with an elegant and smooth user experience.
 
-## Features
+✨ Features
 
-- **Responsive Design**: Perfectly optimized for all screen sizes — mobiles, tablets, laptops, and desktops.
-- **Single Page Layout**: Smooth scrolling navigation across multiple sections:
+Responsive Design – Optimized for mobiles, tablets, laptops, and desktops.
 
-  - Navbar with active link highlighting
-  - Hero Section with engaging introduction and call-to-actions
-  - About Section to highlight background and story
-  - Feature Section to showcase skills or unique strengths
-  - Portfolio Section with working tabs to filter and display projects
-  - Services Section to present offered design services
-  - Contact Section with a working contact form
-  - Footer with social links and copyright info
+Single-Page Layout – Smooth scrolling navigation across sections:
 
-- **Clean and Modern UI**: Utilizes TailwindCSS and shadcn UI for clean, maintainable styling.
-- **Interactive Tabs**: Portfolio filtering tabs implemented for dynamic project display.
-- **Accessibility**: Built with semantic HTML and keyboard navigation in mind.
-- **Performance Optimized**: Fast loading with Next.js static generation and optimized images.
+Navbar with active link highlighting
 
-## Technologies Used
+Hero Section with engaging introduction & CTAs
 
-- [Next.js](https://nextjs.org/) — React framework for server-side rendering and static site generation
-- [TailwindCSS](https://tailwindcss.com/) — Utility-first CSS framework for styling
-- [shadcn UI](https://ui.shadcn.com/) — Headless UI components for React and TailwindCSS
-- [React](https://reactjs.org/) — JavaScript library for building user interfaces
+About Section to share your story & background
 
-## Installation
+Skills/Features Section to showcase strengths
 
-1. **Clone the repository**
+Portfolio Section with working category filters
 
-```bash
-git clone https://github.com/pawantech12/graphic-designer-portfolio.git
-cd graphic-designer-portfolio
-```
+Services Section to highlight offerings
 
-2. **Install dependencies**
+Contact Section with a working form
 
-```bash
-pnpm install
+Footer with quick links & social media
+
+Modern UI/UX – Styled using TailwindCSS and shadcn UI components.
+
+Interactive Portfolio Tabs – Filter and view projects seamlessly.
+
+Accessibility Ready – Semantic HTML & keyboard-friendly navigation.
+
+Performance Optimized – Fast loading with Next.js static generation.
+
+🛠️ Technologies Used
+
+Next.js
+ – React framework for SSR & static sites
+
+TailwindCSS
+ – Utility-first CSS framework
+
+shadcn UI
+ – Headless UI components
+
+React
+ – Frontend library for building UI
+
+🚀 Installation
+
+Clone the repository
+
+git clone https://github.com/hariom40290/portfolio-2.git
+cd portfolio-2
+
+
+Install dependencies
+
+npm install
 # or
 yarn install
-```
+# or
+pnpm install
 
-3. **Run the development server**
 
-```bash
-pnpm run dev
+Run the development server
+
+npm run dev
 # or
 yarn dev
-```
+# or
+pnpm dev
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to view the portfolio.
 
-## Deployment
+Open http://localhost:3000
+ to view it in your browser.
 
-You can deploy this portfolio easily on platforms like:
+🌍 Deployment
 
-- [Vercel](https://vercel.com/) — Recommended for Next.js apps, zero-config deployment
-- [Netlify](https://www.netlify.com/)
-- [Firebase Hosting](https://firebase.google.com/products/hosting)
+Easily deploy on platforms like:
 
-Build the project before deployment:
+Vercel
+ – Best choice for Next.js
 
-```bash
-pnpm run build
-```
+Netlify
 
-## Customization
+Firebase Hosting
 
-- Replace placeholder text and images in the `/public` and `/components` directories with your own portfolio content.
-- Update social links in the `Footer` component.
-- Modify color schemes and styles via TailwindCSS configuration or shadcn UI component props.
+Before deployment, build the project:
 
-## Contributions
+npm run build
 
-Contributions are welcome! Feel free to open an issue or submit a pull request for improvements or bug fixes.
+🎨 Customization
 
-## License
+Update images and text inside /public and /components directories.
 
-This project is free to use.
+Add your social links in the Footer component.
 
-## Contact
+Modify color palette via Tailwind config or shadcn props.
 
-Created by **Pawan Kumavat** — feel free to reach out via:
+🤝 Contributions
 
-- Email: [pawankumavat042@gmail.com](mailto:pawankumavat042@gmail.com)
-- LinkedIn: [Pawan Kumavat](https://www.linkedin.com/in/pawan-kumavat-11b105297/)
-- Portfolio: [pawan kumavat](https://pawan-kumavat.vercel.app/)
+Contributions, feedback, and suggestions are always welcome!
+Feel free to open an issue or submit a pull request.
 
-_Thank you for checking out my portfolio project!_
+📩 Contact
+
+Created by Hariom Kushwah
+
+Email: your-email@example.com
+
+LinkedIn: linkedin.com/in/hariom
+
+Portfolio: hariom-portfolio.vercel.app
+
+👉 Thanks for checking out my portfolio project!

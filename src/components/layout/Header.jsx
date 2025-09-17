@@ -42,7 +42,7 @@ const Header = () => {
               href="#home"
               className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-blue-600 bg-clip-text text-transparent"
             >
-              Alex Rivera
+              Hariom Kushwah
             </a>
           </div>
 

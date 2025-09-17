@@ -29,26 +29,27 @@ const Contact = () => {
     console.log("Form submitted:", formData);
   };
 
-  const contactInfo = [
+   const contactInfo = [
     {
       icon: Mail,
       title: "Email",
-      info: "alex@example.com",
+      info: "hariom.designs23@gmail.com",
       description: "Send me an email anytime!",
     },
     {
       icon: Phone,
       title: "Phone",
-      info: "+1 (555) 123-4567",
-      description: "Call me for urgent projects",
+      info: "+91 9870071432",
+      description: "Available for calls and WhatsApp",
     },
     {
       icon: MapPin,
       title: "Location",
-      info: "New York, NY",
-      description: "Available for local meetings",
+      info: "Morar, Gwalior (M.P.), India",
+      description: "Open to remote & on-site opportunities",
     },
   ];
+
 
   return (
     <section id="contact" className="py-20 bg-white">
@@ -92,18 +93,30 @@ const Contact = () => {
               </Card>
             ))}
 
-            {/* CTA Card */}
-            <Card className="bg-gradient-to-br from-purple-500 to-blue-500 text-white">
-              <CardContent className="p-6 text-center">
-                <h3 className="text-xl font-bold mb-2">Quick Response</h3>
-                <p className="mb-4 opacity-90">
-                  I typically respond to all inquiries within 24 hours.
-                </p>
-                <Button variant="secondary" className="w-full">
-                  Schedule a Call
-                </Button>
-              </CardContent>
-            </Card>
+          {/* CTA Card */}
+<Card className="bg-gradient-to-br from-purple-500 to-blue-500 text-white">
+  <CardContent className="p-6 text-center">
+    <h3 className="text-xl font-bold mb-2">Quick Response</h3>
+    <p className="mb-4 opacity-90">
+      I typically respond to all inquiries within 24 hours.
+    </p>
+
+    <a
+      href="https://wa.me/9870071432" // 👉 apna WhatsApp number yaha dalna (country code ke sath)
+      target="_blank"
+      rel="noopener noreferrer"
+      className="flex items-center justify-center gap-2 w-full bg-green-500 hover:bg-green-600 text-white font-medium py-3 px-4 rounded-lg transition"
+    >
+      <img
+        src="/whatsapp-icon.png" // 👉 apna WhatsApp icon rakho `public/whatsapp-icon.png` me
+        alt="WhatsApp"
+        className="w-5 h-5"
+      />
+      Chat on WhatsApp
+    </a>
+  </CardContent>
+</Card>
+
           </div>
 
           {/* Contact Form */}

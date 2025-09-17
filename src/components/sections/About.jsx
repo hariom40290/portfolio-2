@@ -45,16 +45,18 @@ const About = () => {
     },
   ];
 
-  return (
+   return (
     <section id="about" className="py-20 bg-gray-50">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
             About Me
           </h2>
-          <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            I&apos;m a passionate graphic designer with over 5 years of
-            experience creating impactful visual solutions for brands worldwide.
+          <p className="text-sm text-gray-600 max-w-3xl mx-auto">
+            I&apos;m Hariom Kushwah, a dedicated UI/UX Designer with 2 years of
+            experience. Currently working at Agami Technologies, I specialize in
+            designing clean, user-friendly, and modern digital experiences that
+            help businesses grow and engage users effectively.
           </p>
         </div>
 
@@ -62,22 +64,25 @@ const About = () => {
           {/* Text Content */}
           <div>
             <h3 className="text-2xl font-bold text-gray-900 mb-6">
-              Crafting Visual Stories That Matter
+              Designing Experiences That Connect
             </h3>
             <div className="space-y-4 text-gray-600">
               <p>
-                With a keen eye for detail and a passion for storytelling
-                through design, I help businesses communicate their message
-                effectively through powerful visual narratives.
+                My journey started as a Web Designer at NxtLife Technologies,
+                and now as a UI/UX Designer at Agami Technologies, I have worked
+                on multiple live projects including Fusion24X7 (CRM),
+                Octoquill, Decorait, and Patel Lab & Clinic.
               </p>
               <p>
-                My approach combines strategic thinking with creative execution,
-                ensuring that every design not only looks beautiful but also
-                serves a purpose and drives results.
+                I focus on blending creativity with strategy — turning complex
+                ideas into simple, elegant, and impactful designs. From
+                wireframes to interactive prototypes, I ensure every product is
+                user-friendly and aligned with business goals.
               </p>
               <p>
-                From brand identity to digital experiences, I create designs
-                that connect with audiences and leave lasting impressions.
+                My mission is to craft digital products that not only look
+                modern but also solve real problems and deliver measurable
+                results.
               </p>
             </div>
 
@@ -104,8 +109,9 @@ const About = () => {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.pexels.com/photos/3184292/pexels-photo-3184292.jpeg?auto=compress&cs=tinysrgb&w=600"
-                alt="Creative workspace"
+                src="https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=800
+"
+                alt="UI/UX Designer workspace"
                 className="w-full h-full object-cover"
               />
             </div>
