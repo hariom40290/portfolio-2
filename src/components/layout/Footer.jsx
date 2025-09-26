@@ -25,13 +25,13 @@ const Footer = () => {
             </p>
             <div className="flex space-x-4">
               {[
-                { Icon: Facebook, href: "https://facebook.com/" },
-                { Icon: Instagram, href: "https://instagram.com/" },
-                { Icon: Twitter, href: "https://twitter.com/" },
-                {
-                  Icon: Linkedin,
-                  href: "https://www.linkedin.com/in/hariom-kushwah-83283931",
-                },
+                // { Icon: Facebook, href: "https://facebook.com/" },
+                // { Icon: Instagram, href: "https://instagram.com/" },
+                // { Icon: Twitter, href: "https://twitter.com/" },
+                // {
+                //   Icon: Linkedin,
+                //   href: "https://www.linkedin.com/in/hariom-kushwah-83283931",
+                // },
               ].map(({ Icon, href }, index) => (
                 <a
                   key={index}
