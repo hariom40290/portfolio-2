@@ -96,7 +96,7 @@ const Hero = () => {
                 {/* Main Profile Image */}
                 <div className="absolute inset-4 rounded-full overflow-hidden border-4 border-white shadow-2xl">
                   <img
-                    src="https://media.licdn.com/dms/image/v2/D4E35AQFBzwbCq7kUUw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719457260265?e=1758643200&v=beta&t=0w99tGC6FY-U2u-iQbydKdu2cIk8h_DdSNXskqNn0R4"
+                    src="https://media.licdn.com/dms/image/v2/D4E35AQFBzwbCq7kUUw/profile-framedphoto-shrink_400_400/profile-framedphoto-shrink_400_400/0/1719457260265?e=1759471200&v=beta&t=ymM1JMMzw2Owi2UyZdN9yA5Yg9QM59BTZk9Bj3agMFY"
                     alt="Hariom Kushwah - UI/UX Designer"
                     className="w-full h-full object-cover"
                   />
